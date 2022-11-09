@@ -1,0 +1,18 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    background: aquamarine;
+}
+
+.fixfloat ::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav{
+    float: right;
+}
