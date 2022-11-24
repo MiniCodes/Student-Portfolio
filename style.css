@@ -63,4 +63,5 @@ nav a:hover::before{
 
 h1{
     font-family: 'Poppins', 'sans-serrif';
+    text-align: center;
 }
