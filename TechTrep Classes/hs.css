@@ -4,7 +4,7 @@
 }
 
 header{
-    background: aquamarine;
+    background: #d4d7c4;
 }
 
 .fixfloat ::after{
@@ -33,14 +33,14 @@ nav li{
 }
 
 nav a{
-    color: rgb(57, 56, 56);
+    color: #868f74;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
 }
 
 nav a:hover{
-    color: #000;
+    color: #79816a;
 }
 
 nav a::before{
@@ -48,7 +48,7 @@ nav a::before{
     display: block;
     height: 5px;
     width: 100%;
-    background-color: rgb(57, 56, 56);
+    background-color: #868f74;
 
     position: absolute;
     top: 0;
@@ -61,6 +61,16 @@ nav a:hover::before{
     width: 100%;
 }
 
+head{
+    background: #f6f9fa;
+}
+
+body{
+    background: #f6f9fa;
+}
+
 h1{
     font-family: 'Poppins', 'sans-serrif';
+    text-align: center;
+    color: #8496a2;
 }
