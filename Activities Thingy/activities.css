@@ -1,12 +1,15 @@
+/* container for nav bar */
 .container{
     width: 80%;
     margin: 0 auto;
 }
 
+/* Nav bar color */
 header{
     background: #d4d7c4;
 }
 
+/* float fix for nav bar */
 .fixfloat ::after{
     content: '';
     display: table;
@@ -17,12 +20,14 @@ nav{
     float: right;
 }
 
+/* Styles nav ul */
 nav ul{
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
+/* Positions nav li */
 nav li{
     display: inline-block;
     margin-left: 70px;
@@ -32,6 +37,7 @@ nav li{
     position: relative;
 }
 
+/* styles nav links */
 nav a{
     color: #868f74;
     text-decoration: none;
@@ -39,10 +45,12 @@ nav a{
     font-size: 16px;
 }
 
+/* Gives nav links darker color when hovering over */
 nav a:hover{
     color: #79816a;
 }
 
+/* Styles bar animation over nav links */
 nav a::before{
     content: '';
     display: block;
@@ -57,6 +65,7 @@ nav a::before{
     transition: all ease-in-out 250ms;
 }
 
+/* Shows bar animation when hovering over nav links*/
 nav a:hover::before{
     width: 100%;
 }
@@ -73,4 +82,20 @@ h1{
     font-family: 'Poppins', 'sans-serrif';
     text-align: center;
     color: #8496a2;
+}
+
+/* Displays & styles grid */
+.active-grid{
+    margin: 20px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    column-gap: 25px;
+    row-gap: 15px;
+}
+
+/* Styles grid headers */
+.active-grid h3{
+    text-align: center;
 }
