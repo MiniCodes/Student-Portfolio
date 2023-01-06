@@ -83,3 +83,9 @@ h1{
     text-align: center;
     color: #8496a2;
 }
+
+/* Random size for img */
+img{
+    width: 450px;
+    height: 400px;
+}
