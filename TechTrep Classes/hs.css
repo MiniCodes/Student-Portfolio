@@ -83,3 +83,9 @@ h1{
     text-align: center;
     color: #8496a2;
 }
+
+/* Sizes Mini Navigation Image */
+.mini-nav img{
+    width: 300px;
+    height: 350px;
+}

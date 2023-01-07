@@ -99,3 +99,8 @@ h1{
 .active-grid h3{
     text-align: center;
 }
+
+.active-grid img{
+    width: 350px;
+    height: 300px;
+}
