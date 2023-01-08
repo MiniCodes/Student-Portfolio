@@ -78,14 +78,103 @@ body{
     background: #f6f9fa;
 }
 
+/* Styles headers 1 */
 h1{
-    font-family: 'Poppins', 'sans-serrif';
+    font-family: 'Marck Script', cursive;
     text-align: center;
+    font-size: 46px;
     color: #8496a2;
+}
+
+/* Styles headers 2 */
+h2{
+    font-family: 'Marck Script', cursive;
+    text-align: center;
+    font-size: 32px;
+    color: #8496a2;
+}
+
+/* Styles the page Introduction paragraph */
+.intro-pg{
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    font-size: 24px;
+    color: #687a86;
+    border-radius: 25px;
+    background: #d4d7c4a5;
+}
+
+/* Creates & Styles Mini Navigaiton Grid */
+.mini-nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 /* Sizes the Mini Navigation Image*/
 .mini-nav img{
+    width: 420px;
+    height: 320px;
+}
+
+/* Positions the Mini Navigation Image*/
+.Image{
+    text-align: center;
+}
+
+/* Creates & Styles Mini Navigation Bar/Reflection grid */
+.nav-and-reflection{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+/* Styles the Mini Navigation Bars */
+.mini-navbar{
+    font-family: 'Kalam', cursive;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Styles the Mini Navigation so that text is in the right position */
+.mini-navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+/* Styles the Written Reflections */
+.reflection{
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Styles the documents grid on the CWI Page */
+.cwi-docs-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+/* Styles the documents grid on the Econ Page */
+.econ-docs-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+/* Styles the documents grid on the English Page */
+.eng-docs-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+/* Styles the documents highlight grid on the College Homepage */
+.docs-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+img{
     width: 300px;
     height: 300px;
 }
