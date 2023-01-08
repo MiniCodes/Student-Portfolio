@@ -78,14 +78,79 @@ body{
     background: #f6f9fa;
 }
 
+/* Styles headers 1 */
 h1{
-    font-family: 'Poppins', 'sans-serrif';
+    font-family: 'Marck Script', cursive;
     text-align: center;
+    font-size: 46px;
     color: #8496a2;
+}
+
+/* Styles the written part of my Bio*/
+.bio .written{
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    font-size: 22px;
+    font-weight: 500;
+    color: #687a86;
+    border-radius: 25px;
+    background: #d4d7c4a5;
 }
 
 /* Random size for img */
 img{
-    width: 450px;
+    width: 350px;
+    height: 300px;
+}
+
+/* Creates & Styles Grid for Goals, Achievements & Strengths */
+.grid-biostuff{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    text-align: center;
+}
+
+/* Styles grid titles */
+.grid-biostuff h3{
+    font-family: 'Caveat', cursive;
+    font-size: 28px;
+    font-weight: bold;
+    color: #687a86;
+    border-radius: 25px;
+    background: #d4d7c4a5;
+}
+
+/* Styles the paragraphs in the grid*/
+.grid-biostuff p{
+    font-family: 'Kalam', cursive;
+    font-size: 18px;
+    font-weight: 500;
+    color: #687a86;
+}
+
+/* Sytles grid lists items */
+.grid-biostuff li{
+    font-family: 'Kalam', cursive;
+    font-size: 18px;
+    font-weight: 500;
+    color: #8496a2;
+}
+
+/* Styles goals image */
+.goals img{
+    width: 380px;
+    height: 330px;
+}
+
+/* Styles Achievements image */
+.achievements img{
+    width: 320px;
+    height: 390px;
+}
+
+/* Styles Strengths Image */
+.strengths img{
+    width: 330px;
     height: 400px;
 }
