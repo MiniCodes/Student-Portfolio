@@ -108,9 +108,10 @@ h2{
 .mini-nav{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
 }
 
-/* Sizes the Mini Navigation Image*/
+/* Sizes the Mini Navigation Image */
 .mini-nav img{
     width: 420px;
     height: 320px;
@@ -119,6 +120,19 @@ h2{
 /* Positions the Mini Navigation Image*/
 .Image{
     text-align: center;
+}
+
+/* Styles the navigation on college homepage */
+.mini-nav .nav{
+    font-family: 'Kalam', cursive;
+    font-size: 18px;
+    text-align: left;
+}
+
+/* Styles the navigation list on college homepage */
+.nav ul{
+    padding: 0;
+    list-style: none;
 }
 
 /* Creates & Styles Mini Navigation Bar/Reflection grid */
@@ -152,6 +166,9 @@ h2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    row-gap: 2rem;
+    column-gap: 1rem;
+    text-align: center;
 }
 
 /* Styles the documents grid on the Econ Page */
@@ -159,6 +176,9 @@ h2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    row-gap: 2rem;
+    column-gap: 1rem;
+    text-align: center;
 }
 
 /* Styles the documents grid on the English Page */
@@ -166,15 +186,36 @@ h2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 2rem;
+    column-gap: 1rem;
+    text-align: center;
 }
 
 /* Styles the documents highlight grid on the College Homepage */
 .docs-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+    text-align: center;
 }
 
 img{
     width: 300px;
     height: 300px;
+}
+
+/* Media query for main page document grid */
+@media (max-width: 960px) {
+    .docs-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+/* Media query for main page document grid */
+@media (max-width: 660px) {
+    .docs-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
 }
