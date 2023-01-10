@@ -209,6 +209,25 @@ img{
     .docs-grid {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
+        row-gap: 3rem;
+    }
+
+    .cwi-docs-grid{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 3rem;
+    }
+
+    .econ-docs-grid{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 3rem;
+    }
+
+    .eng-docs-grid{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        row-gap: 3rem;
     }
 }
 
@@ -217,5 +236,6 @@ img{
     .docs-grid {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 3rem;
     }
 }
