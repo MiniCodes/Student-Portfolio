@@ -97,6 +97,10 @@ h1{
 
 /* Styles grid headers */
 .active-grid h3{
+    font-family: 'Caveat', cursive;
+    color: #687a86;
+    border-radius: 25px;
+    background: #d4d7c4a5;
     text-align: center;
 }
 
@@ -105,19 +109,12 @@ h1{
     height: 300px;
 }
 
-.active-grid h3{
-    font-family: 'Caveat', cursive;
-    color: #687a86;
-    border-radius: 25px;
-    background: #d4d7c4a5;
-}
-
 .active-grid p{
     margin: 1rem;
     font-family: 'Kalam', cursive;
 }
 
 .digital-art img{
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
 }
