@@ -86,13 +86,13 @@ h1{
 
 /* Displays & styles grid */
 .active-grid{
-    margin: 20px;
-    width: 90%;
+    margin: 1rem;
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     column-gap: 25px;
-    row-gap: 15px;
+    row-gap: 3rem;
+    text-align: center;
 }
 
 /* Styles grid headers */
@@ -103,4 +103,21 @@ h1{
 .active-grid img{
     width: 350px;
     height: 300px;
+}
+
+.active-grid h3{
+    font-family: 'Caveat', cursive;
+    color: #687a86;
+    border-radius: 25px;
+    background: #d4d7c4a5;
+}
+
+.active-grid p{
+    margin: 1rem;
+    font-family: 'Kalam', cursive;
+}
+
+.digital-art img{
+    width: 350px;
+    height: 350px;
 }
